@@ -5,11 +5,11 @@ This project provides an AutoIt helper for grabbing items from a summoned charac
 ## Files
 
 - `bg3_summon_items_config.au3`
-  - Config-driven version for sharing across different screen setups.
+  - The script to run with AutoIt
 - `bg3_summon_items_config.ini`
   - External settings file for hotkeys and slot offsets.
 
-## What The Config Version Does
+## What This Does
 
 1. You launch `bg3_summon_items_config.au3`.
 2. Select a slot in the helper UI (Head, Cloak, Ring1, etc.).
