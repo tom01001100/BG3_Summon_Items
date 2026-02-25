@@ -16,7 +16,7 @@ Global $gStopHotkey = '{F10}'
 LoadHotkeys()
 
 ; Build UI
-Local $hGui = GUICreate('BG3 Summon Items (Config)', 380, 348)
+Local $hGui = GUICreate('BG3 Summon Items', 380, 348)
 $gLblSelected = GUICtrlCreateLabel('Selected: None', 20, 12, 330, 20)
 GUICtrlCreateLabel(StringFormat('Action: %s   Stop: %s', $gActionHotkey, $gStopHotkey), 20, 30, 330, 20)
 

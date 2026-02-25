@@ -1,4 +1,4 @@
-# BG3 Summon Items AutoIt
+# BG3 Summon Items
 
 This project provides an AutoIt helper for grabbing items from a summoned character (Mage Hand, Dryad, Azer, etc) in  **Baldur's Gate 3**.
 
