@@ -10,7 +10,7 @@ Global $gSelectedSlot = ''
 Global $gOffsetX = 0
 Global $gOffsetY = 0
 Global $gLblSelected = 0
-Global $gActionHotkey = '{F8}'
+Global $gActionHotkey = '{F7}'
 Global $gStopHotkey = '{F10}'
 
 LoadHotkeys()
@@ -90,12 +90,12 @@ WEnd
 GUIDelete($hGui)
 
 Func LoadHotkeys()
-    $gActionHotkey = IniRead($gConfigPath, 'Hotkeys', 'Action', '{F8}')
+    $gActionHotkey = IniRead($gConfigPath, 'Hotkeys', 'Action', '{F7}')
     $gStopHotkey = IniRead($gConfigPath, 'Hotkeys', 'Stop', '{F10}')
 
     If Not HotKeySet($gActionHotkey, 'HandleAction') Then
-        ConsoleWrite('Invalid Action hotkey in config. Falling back to {F8}.' & @CRLF)
-        $gActionHotkey = '{F8}'
+        ConsoleWrite('Invalid Action hotkey in config. Falling back to {F7}.' & @CRLF)
+        $gActionHotkey = '{F7}'
         HotKeySet($gActionHotkey, 'HandleAction')
     EndIf
 

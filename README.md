@@ -15,7 +15,7 @@ This project provides an AutoIt helper for grabbing items from a summoned charac
 1. You launch `bg3_summon_items_config.au3`.
 2. Select a slot in the helper UI (Head, Cloak, Ring1, etc.).
 3. Hover your mouse over the summon-item preview button in BG3.
-4. Press the action hotkey (default `F8`).
+4. Press the action hotkey (default `F7`).
 5. The script:
    - Captures your current mouse position.
    - Applies the selected slot offsets from the INI file.
@@ -34,7 +34,7 @@ This project provides an AutoIt helper for grabbing items from a summoned charac
    - `bg3_summon_items_config.au3`
    - `bg3_summon_items_config.ini`
 2. Run `bg3_summon_items_config.au3`.
-3. In BG3, open inventory for a summon or your own character for testing, and test a slot with `F8`.
+3. In BG3, open inventory for a summon or your own character for testing, and test a slot with `F7`.
 4. If it misses the slot, tune offsets in the INI and test again.
 
 ## Configuration
@@ -45,7 +45,7 @@ All settings are in `bg3_summon_items_config.ini`.
 
 ```ini
 [Hotkeys]
-Action={F8}
+Action={F7}
 Stop={F10}
 ```
 
@@ -53,7 +53,7 @@ Stop={F10}
 - `Stop`: hotkey that releases mouse and exits. Also can click the "x" in the UI window.
 
 AutoIt hotkey format examples:
-- `{F8}` = F8
+- `{F7}` = F7
 - `^!s` = Ctrl+Alt+S
 - `+{F9}` = Shift+F9
 
