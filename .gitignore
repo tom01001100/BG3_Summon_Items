@@ -1,0 +1,36 @@
+# AutoIt compiled files
+*.a3x
+*.exe
+
+# AutoIt IDE files
+*.au3.bak
+*.au3~
+
+# AutoIt build artifacts
+/Build/
+/Dist/
+
+# Common IDE files
+.vscode/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+*.lnk
+desktop.ini
+
+
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
