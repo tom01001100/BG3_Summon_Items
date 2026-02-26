@@ -111,3 +111,9 @@ Where `<SlotName>` is one of:
 
 - This script automates mouse movement/click/drag only.
 - It is resolution and UI-layout dependent.
+
+## Inspiration and Further Reading
+
+- https://www.reddit.com/r/BG3Builds/comments/1m3kdk8/mage_hand_legerdemain_guide/
+- https://www.reddit.com/r/BG3Builds/comments/1ozhxlp/summon_cheat_sheet/
+- https://bg3.wiki/wiki/List_of_Items_consumable_by_Gale
